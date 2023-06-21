@@ -6,7 +6,6 @@
 Console.Write("Введите трёхзначное число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
-// Получаем вторую цифру числа
 int secondDigit = (num / 10) % 10;
 
 Console.WriteLine("Вторая цифра числа {0} - {1}", num, secondDigit);
